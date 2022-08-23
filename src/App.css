@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 150px;
+}
+
+.App-header {
+  background-color: rgba(58, 13, 78, 0.911);
+  height: 350px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.2em;
+}
+
+.App-title1 {
+  font-size: 1.1em;
+}
+
+.App-title2 {
+  font-size: 1.1em;
+}
+
+.App-title3 {
+  animation: App-logo-scroll infinite 20s linear;
+  animation: blinker 0.6s linear infinite;
+  font-size: 1.3em;
+  color: rgb(247, 246, 241);
+}
+
+.App-intro {
+  font-size: large;
+}

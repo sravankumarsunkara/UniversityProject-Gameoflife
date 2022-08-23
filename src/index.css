@@ -1,0 +1,41 @@
+body {
+	background-color: #81708d;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.Cell {
+	display: inline-block;
+	border: 1px solid black;
+	width: 15px;
+	height: 15px;
+	margin-left: -1px;
+	margin-bottom: -1px;
+}
+
+.Cell:hover {
+	background-color: rgb(47, 179, 255);
+}
+
+.Cell.isActive {
+	background-color: #66fb61;
+}
+
+.Grid {
+	width: 50px;
+	line-height: 0;
+	margin: auto;
+	box-shadow: 1px 1px 30px rgb(255, 255, 255);
+	margin-top: 20px;
+}
+
+.button1 {background-color: #e4fb61;}
+.button2 {background-color: #6361fb;}
+.button3 {background-color: #66fb61;}
+.button4 {background-color: #fb6161;}
+.button5 {background-color: #818375;}
